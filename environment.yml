@@ -1,0 +1,10 @@
+name: GATK-best-practices-RNA
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python==3.7.10
+  - gatk4==4.1.8.1
+  - sambamba==0.7.1
+  - star==2.7.5c
