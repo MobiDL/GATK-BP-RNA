@@ -4,6 +4,15 @@ This workflow do VariantCalling on Illumina RNA sequencing data.
 
 ## Installation
 
+### Clone the repo
+
+```bash
+git clone --recursive git@github.com:MobiDL/GATK-BP-RNA.git
+```
+### Install dependencies
+
+__Conda is recommended:__ [see here to install conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
 You will need to create a new environment based on conda.
 
 ```bash
@@ -48,13 +57,8 @@ This template is separating in 4 categories (blank line) :
 ### Local
 
 ```bash
-PATH_RNA="/path/to/MobiDL2-GATK-BP-RNA/"
 conda activate GATK-best-practices-RNA
 cromwell run \
 	--inputs /path/to/inputs.json \
-	${PATH_RNA}/workflows/GATK-best-practices-RNA/GATK-best-practices-RNA.wdl
+	GATK-BP-RNA.wdl
 ```
-
-### Cluster
-
-- [TODO]
