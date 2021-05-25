@@ -59,6 +59,7 @@ This template is separating in 4 categories (blank line) :
 ```bash
 conda activate GATK-best-practices-RNA
 cromwell run \
+	-Dconfig.file=backends.conf/local.conf \
 	--inputs /path/to/inputs.json \
 	GATK-BP-RNA.wdl
 ```
