@@ -7,7 +7,7 @@ This workflow do VariantCalling on Illumina RNA sequencing data.
 ### Clone the repo
 
 ```bash
-git clone --recursive git@github.com:MobiDL/GATK-BP-RNA.git
+git clone --recursive https://github.com/MobiDL/GATK-BP-RNA.git
 ```
 ### Install dependencies
 
